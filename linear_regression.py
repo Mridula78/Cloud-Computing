@@ -14,7 +14,7 @@ from sklearn import model_selection
 import numpy as np
 import sklearn
 from sklearn import linear_model
-X=[[4.0],[5.0],[6.0],[7.0],[8.0],[9.0],[10.0],[11.0],[12.0]
+X=[[4.0],[5.0],[6.0],[7.0],[8.0],[9.0],[10.0],[11.0],[12.0]]
 y=[8, 10, 12, 14, 16, 18, 20, 22,24]
 X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size=0.3, random_state=7)
 print("Training Features", X_train);print("Training Labels",y_train);print("Training Data",X_test);print("Testing Data",y_test)
